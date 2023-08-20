@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Roboto&display=swap');
+
+:root {
+    --branco: #ffeedb;
+    --preto: #141414;
+    --azul-claro: #0d21a1;
+    --azul-escuro: #011638;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title {
+    color: var(--branco);
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 7em;
+    text-align: center;
+    line-height: 110px;
+    margin-top: 111px;
+    margin-left: 40px;
+}
+
+.title-blue {
+    color: var(--azul-claro);
+}
+
+.description {
+    color: var(--branco);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+/* Área dos títulos */
+
+.subtitle-container {
+    margin-top: 240px;
+}
+
+.subtitle {
+    color: var(--azul-claro);
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+.subtitle-subtitle {
+    color: var(--branco);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Área dos alimentos */
+
+.first-product {
+    margin-top: 50px;
+}
+
+.product,
+.product-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-image {
+    max-width: 500px;
+    height: 379px;
+} 
+
+.right-image {
+    max-width: 500px;
+    height: 379px;
+    margin-right: 30px;
+} 
+
+.product-name,
+.product-name-right {
+    color: var(--azul-claro);
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 2.3em;
+}
+
+.product-description,
+.product-description-right {
+    font-family: 'Roboto', sans-serif;
+    color: var(--branco);
+    font-size: 1.2em;
+}
+
+.product-written,
+.product-written-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-right,
+.middle-product {
+    margin-top: 150px;
+}
+
+.product-written-right {
+    margin-left: 40px;
+}

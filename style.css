@@ -73,7 +73,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 80px;
 }
 
 .left-image {
@@ -86,6 +87,10 @@ body {
     height: 379px;
     margin-right: 30px;
 } 
+
+.pacoca {
+    max-width: 675px;
+}
 
 .product-name,
 .product-name-right {
@@ -115,4 +120,11 @@ body {
 
 .product-written-right {
     margin-left: 40px;
+}
+
+@media (max-width: 720px){
+    .title {
+        font-size: 6em;
+        line-height: normal;
+    }
 }
